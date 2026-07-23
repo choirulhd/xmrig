@@ -6,11 +6,14 @@ sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 
 sudo apt install unrar -y
 
-unrar x xmrig.rar
-
 git clone https://github.com/choirulhd/xmrig.git
 
-cd xmrig/build
+cd xmrig
+
+unrar x xmrig.rar
+
+cd build
+
 chmod +x auto_miner.sh xmrig-cereblix
 
 
