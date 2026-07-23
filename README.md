@@ -23,6 +23,7 @@ nano auto_miner.sh
 edit atau hapus isi dan masukan scrip ini :
 
 #!/bin/bash
+
 sleep 10
 
 cd /root/xmrig/build
